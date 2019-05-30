@@ -15,3 +15,14 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Body", name: "body", widget: "markdown"}
+  - name: "projects"
+    label: "Projects"
+    folder: "_projects"
+    create: true
+    identifier_field: project-name
+    extension: "yml"
+    format: "taml-frontmatter"
+    fields:
+      - {label: "Project Name", name: "project-name", widget: "string"}
+      - {label: "Project Description", name: "project-desc", widget: "string"}
+      - {label: "Author", name: "author", widget: "string"}
