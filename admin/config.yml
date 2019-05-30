@@ -21,7 +21,7 @@ collections:
     create: true
     identifier_field: project-name
     extension: "yml"
-    format: "yaml-frontmatter"
+    format: "json-frontmatter"
     fields:
       - {label: "Project Name", name: "project-name", widget: "string"}
       - {label: "Project Description", name: "project-desc", widget: "string"}
