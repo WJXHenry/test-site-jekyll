@@ -20,7 +20,7 @@ github_username:  WJXHenry
 
 # Build settings
 markdown: kramdown
-include: ["posts"]
+include: ["_posts"]
 theme: minima
 plugins:
   - jekyll-feed
