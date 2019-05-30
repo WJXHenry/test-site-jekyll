@@ -13,14 +13,15 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Jekyll Test
+title: Jekyll Test Site
 email: wjxhenry@gmail.com
-url: "wjxhenry.github.io/test-site-jekyll" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  WJXHenry
+description: >- # this means to ignore newlines until "baseurl:"
+  Testing
+url: "https://wjxhenry.github.io/test-site-jekyll" # the base hostname & protocol for your site, e.g. http://example.com
+github_username:  jekyll
 
 # Build settings
 markdown: kramdown
-include: ["_posts"]
 theme: minima
 plugins:
   - jekyll-feed
