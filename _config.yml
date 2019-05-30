@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Jekyll Test
 email: wjxhenry@gmail.com
-url: "wjxhenry.github.io/jekyll-test" # the base hostname & protocol for your site, e.g. http://example.com
+url: "wjxhenry.github.io/test-site-jekyll" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  WJXHenry
 
 # Build settings
